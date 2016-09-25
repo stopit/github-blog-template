@@ -1,3 +1,12 @@
+
+---
+layout: post
+published: true
+title: github-jekyll搭建技术博客
+description: first fish 
+---  
+
+
 ##### 一、 准备工作
 
 **创建本地与github的远程访问**  
@@ -95,10 +104,19 @@
   进入到 your_local_repo 目录，使用 `jekyll server --watch` 命令启动本地博客。
 
 
+
+#### 三、添加文件
+
+ git commit -a -m "mytest"
+
+ git push origin master
+
+
+
 ---
 
 
-#### 三、参考信息
+#### 四、参考信息
 
 
 - [阮一峰：如何搭建github+jekyll的免费博客](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
